@@ -59,10 +59,14 @@ function capitalize(wd) {
 }
 
 
-const Pricing = ({ AllAccounts }) => {
+const Pricing = () => {
 
     const [windowWidth, setWindowWidth] = useState(null);
     const [loading, setLoading] = useState(true);
+
+    const AllAccounts = [
+        "ac": "pinterest"
+    ]
 
     useEffect(() => {
       setWindowWidth(window.innerWidth);
@@ -321,128 +325,9 @@ const Pricing = ({ AllAccounts }) => {
 export default Pricing;
 
 export async function getServerSideProps(context) {
-    const connectDB = require('../../../utils/connectUserDB');
-    const AvAc = require('../../../utils/AvailableAccounts').default;
-    const jwt = require('jsonwebtoken');
-  
-    /*try {
-      let signedIn = false;
-      const cookies = context.req.headers.cookie || '';
-  
-      try {
-        const tokenCookie = cookies.split(';').find(c => c.trim().startsWith('token='));
-  
-        if (!tokenCookie) {
-          console.log('Token cookie not found');
-          throw new Error('Token cookie not found');
-        }
-  
-        const tokenValue = tokenCookie.split('=')[1];
-  
-        if (!tokenValue) {
-          console.log('Token value is undefined');
-          throw new Error('Token value is undefined');
-        }
-  
-        try {
-          const decoded = jwt.verify(tokenValue, process.env.USER_JWT_SECRET);
-          console.log('Decoded token:', decoded);
-  
-          if (decoded.type !== 'sessionToken') {
-            throw new Error('Invalid token type');
-          }
-  
-          signedIn = true;
-        } catch (err) {
-          console.error('Error verifying token:', err);
-          throw new Error('Token verification failed');
-        }
-      } catch (err) {
-        console.error('Error handling token:', err);
-        signedIn = false;
-      }
-  
-      if (signedIn) {
-        return {
-          redirect: {
-            destination: '/dashboard',
-            permanent: false,
-          },
-        };
-      }
-  
-      try {
-        await connectDB();
-      } catch (err) {
-        console.error('Error connecting to database:', err);
-        throw new Error('Database connection failed');
-      }
-  
-      let AvAccounts;
-      try {
-        AvAccounts = await AvAc.findOne({ _id: '64dff175f982d9f8a4304100' });
-      } catch (err) {
-        console.error('Error fetching accounts:', err);
-        throw new Error('Fetching accounts failed');
-      }
-  
-      const readyDT = AvAccounts.accounts
-        .filter(acc => acc.status === 'available')
-        .map(account => {
-          const plainObject = account.toObject();
-          return {
-            ac: plainObject.ac,
-            status: plainObject.status,
-          };
-        });
   
       return {
         props: {
-          AllAccounts: readyDT,
-          isBlog: true,
-          notProtected: true,
-        },
-      };
-    } catch (error) {
-      console.error('Error in getServerSideProps:', error);
-  
-      return {
-        props: {
-          error: 'An error occurred while processing your request.',
-          isBlog: true,
-          notProtected: true,
-        },
-      };
-    }*/
-
-      try {
-        await connectDB();
-      } catch (err) {
-        console.error('Error connecting to database:', err);
-        throw new Error('Database connection failed');
-      }
-      
-      let AvAccounts;
-      try {
-        AvAccounts = await AvAc.findOne({ _id: '64dff175f982d9f8a4304100' });
-      } catch (err) {
-        console.error('Error fetching accounts:', err);
-        throw new Error('Fetching accounts failed');
-      }
-  
-      const readyDT = AvAccounts.accounts
-        .filter(acc => acc.status === 'available')
-        .map(account => {
-          const plainObject = account.toObject();
-          return {
-            ac: plainObject.ac,
-            status: plainObject.status,
-          };
-        });
-  
-      return {
-        props: {
-          AllAccounts: readyDT,
           isBlog: true,
           notProtected: true,
         },
