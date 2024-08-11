@@ -1,0 +1,5 @@
+[[redirects]]
+  force = true
+  from = "/videos/*"
+  to = "https://general-media-1234.s3.amazonaws.com/:splat"
+  status = 200
