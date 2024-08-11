@@ -65,8 +65,8 @@ const Pricing = () => {
     const [loading, setLoading] = useState(true);
 
     const AllAccounts = [
-        "ac": "pinterest"
-    ]
+        { "ac": "pinterest" }
+    ];
 
     useEffect(() => {
       setWindowWidth(window.innerWidth);
