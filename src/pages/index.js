@@ -235,7 +235,7 @@ const Landing = ({ windowWidth }) => {
             width="100%"
             onClick={toggleVideo}
           >
-            <source src="/SumBroo_Video_Demo.mp4" type="video/mp4" />
+            <source src="https://general-media-1234.s3.amazonaws.com/SumBroo_Video_Demo.mp4" type="video/mp4" />
           </video>
           <span id="toggleButton" onClick={toggleVideo}>
             <Image
