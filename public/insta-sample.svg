@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+<g>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="30.5532" y1="-54.6794" x2="56.9468" y2="51.1794" gradientTransform="matrix(0.4444 0 0 -0.4444 0.5556 19.2222)">
+		<stop  offset="0" style="stop-color:#FFDD55"/>
+		<stop  offset="2.774927e-002" style="stop-color:#FFDD55"/>
+		<stop  offset="7.482257e-002" style="stop-color:#FFC351"/>
+		<stop  offset="0.1582" style="stop-color:#FF9B4A"/>
+		<stop  offset="0.2404" style="stop-color:#FF7C45"/>
+		<stop  offset="0.3199" style="stop-color:#FF6641"/>
+		<stop  offset="0.3958" style="stop-color:#FF593F"/>
+		<stop  offset="0.4639" style="stop-color:#FF543E"/>
+		<stop  offset="0.4965" style="stop-color:#FB5246"/>
+		<stop  offset="0.7303" style="stop-color:#DF437C"/>
+		<stop  offset="0.9051" style="stop-color:#CE3A9E"/>
+		<stop  offset="1" style="stop-color:#C837AB"/>
+	</linearGradient>
+	<path fill="url(#SVGID_1_)" d="M40,40H0V0h40V40z"/>
+	
+		<radialGradient id="SVGID_2_" cx="-71.9982" cy="6.8333" r="10.3047" gradientTransform="matrix(0.6505 3.339 280.6914 -218.6179 -1871.7623 1730.5391)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#3771C8"/>
+		<stop  offset="0.1543" style="stop-color:#3771C8"/>
+		<stop  offset="1" style="stop-color:#6600FF;stop-opacity:0"/>
+	</radialGradient>
+	<path fill="url(#SVGID_2_)" d="M40,34.1c0,3.2-2.6,5.9-5.9,5.9H5.9C2.6,40,0,37.3,0,34.1V0l0,0h40.1L40,34.1z"/>
+	<path fill="#FFFFFF" d="M19.9,7.2c-3.5,0-4,0-5.4,0.1c-1.4,0-2.3,0.3-3.2,0.6C10.5,8.2,9.7,8.7,9,9.4c-0.7,0.7-1.2,1.5-1.5,2.3
+		c-0.3,0.8-0.5,1.8-0.6,3.2c0,1.4-0.1,1.8-0.1,5.4s0,4,0.1,5.4c0,1.4,0.3,2.3,0.6,3.2c0.3,0.8,0.8,1.6,1.5,2.3
+		c0.7,0.7,1.5,1.2,2.3,1.5c0.8,0.3,1.8,0.5,3.2,0.6c1.4,0,1.8,0.1,5.4,0.1c3.5,0,4,0,5.4-0.1c1.4,0,2.3-0.3,3.2-0.6
+		c0.8-0.3,1.6-0.8,2.3-1.5c0.7-0.7,1.2-1.5,1.5-2.3c0.3-0.8,0.5-1.8,0.6-3.2c0-1.5,0-1.9,0-5.5s0-4-0.1-5.4c0-1.4-0.3-2.3-0.6-3.2
+		c-0.3-0.8-0.8-1.6-1.5-2.3c-0.7-0.7-1.5-1.2-2.3-1.5c-0.8-0.3-1.8-0.5-3.2-0.6C23.9,7.2,23.4,7.2,19.9,7.2L19.9,7.2z M18.7,9.5
+		c0.4,0,0.7,0,1.2,0c3.5,0,3.9,0,5.2,0.1c1.3,0,2,0.3,2.4,0.4c0.6,0.2,1,0.5,1.5,1c0.4,0.4,0.8,0.9,1,1.5c0.2,0.4,0.4,1.2,0.4,2.4
+		c0,1.4,0.1,1.8,0.1,5.2s0,3.9-0.1,5.2c0,1.3-0.3,2-0.4,2.4c-0.2,0.6-0.5,1.1-0.9,1.5s-0.9,0.8-1.5,1c-0.4,0.2-1.2,0.4-2.4,0.4
+		c-1.4,0-1.8,0.1-5.2,0.1s-3.9,0-5.2-0.1c-1.3,0-2-0.3-2.4-0.4c-0.6-0.2-1-0.5-1.5-1c-0.4-0.4-0.8-0.9-1-1.5
+		c-0.2-0.4-0.4-1.2-0.4-2.4c0-1.4-0.1-1.8-0.1-5.2s0-3.9,0.1-5.2c0-1.3,0.3-2,0.4-2.4c0.2-0.6,0.5-1,1-1.5c0.4-0.5,0.9-0.8,1.5-1
+		c0.4-0.2,1.2-0.4,2.4-0.4C15.8,9.6,16.3,9.5,18.7,9.5L18.7,9.5z M26.8,11.7c-0.8,0-1.6,0.7-1.6,1.6s0.7,1.6,1.6,1.6
+		c0.8,0,1.6-0.7,1.6-1.6S27.7,11.7,26.8,11.7L26.8,11.7z M19.9,13.5c-3.7,0-6.7,3-6.7,6.7s3,6.7,6.7,6.7s6.7-3,6.7-6.7
+		S23.6,13.5,19.9,13.5L19.9,13.5z M19.9,15.9c2.4,0,4.4,2,4.4,4.4c0,2.4-2,4.4-4.4,4.4s-4.4-2-4.4-4.4
+		C15.6,17.8,17.5,15.9,19.9,15.9z"/>
+</g>
+</svg>

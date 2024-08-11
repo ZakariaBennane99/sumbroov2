@@ -1,0 +1,40 @@
+{
+  "name": "sumbroo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 4000",
+    "build": "next build",
+    "start": "next start -p 4000",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@contentful/rich-text-plain-text-renderer": "^16.0.7",
+    "@contentful/rich-text-react-renderer": "^15.17.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/material": "^5.14.13",
+    "axios": "^1.3.5",
+    "contentful": "^10.4.2",
+    "d3": "^7.8.5",
+    "eslint": "8.35.0",
+    "eslint-config-next": "13.2.3",
+    "express-mongo-sanitize": "^2.2.0",
+    "he": "^1.2.0",
+    "jsonwebtoken": "^9.0.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.4.3",
+    "next": "^13.5.6",
+    "next-share": "^0.24.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-modal": "^3.16.1",
+    "react-player": "^2.12.0",
+    "react-select": "^5.7.3",
+    "react-svg-spinners": "^0.3.1",
+    "stripe": "^13.2.0",
+    "validator": "^13.11.0"
+  }
+}
